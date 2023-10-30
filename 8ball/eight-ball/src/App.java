@@ -11,37 +11,26 @@ public class App {
         int rand = random(1, 10);
         
         System.out.println("Hmmm....");
-        switch (rand) {
-            case (1):
-                System.out.println("I'd say yes.");
-                break;
-            case (2):
-                System.out.println("I'd say no.");
-                break;
-            case (3):
-                System.out.println("Maybe? It's kinda hard to tell.");
-                break;
-            case (4):
-                System.out.println("I'd tell you, but that would cause an immense butterfly effect that would lead to the eventual and inevitable end of the world you know, everyone and everything you've ever known or loved. So I'll just keep it to myself :D");
-                break;
-            case (5):
-                System.out.println("Absolutely not. Honestly, what a dumb question.");
-                break;
-            case (6):
-                System.out.println("I think you should know the answer to *that*.");
-                break;
-            case (7):
-                System.out.println("it smells like sushi");
-                break;
-            case (8):
-                System.out.println("Maybe you should ask me again.");
-                break;
-            case (9):
-                System.out.println("Gonna be completely honest here: I'm a hard-coded Java program running from a pseudorandom number generator. You really expect me to answer that? I literally didn't even store what you inputted as a string. Go ask someone else.");
-                break;
-            case (10):
-                System.out.println("Absolutely.");
-                break;
+        if (rand == 1) {
+            System.out.println("I'd say yes.");
+        } else if (rand == 2) {
+            System.out.println("I'd say no.");
+        } else if (rand == 3) {
+            System.out.println("Maybe? It's kinda hard to tell.");
+        } else if (rand == 4) {
+            System.out.println("I'd tell you, but that would cause an immense butterfly effect that would lead to the eventual and inevitable end of the world you know, everyone and everything you've ever known or loved. So I'll just keep it to myself :D");
+        } else if (rand == 5) {
+            System.out.println("Absolutely not. Honestly, what a dumb question.");
+        } else if (rand == 6) {
+            System.out.println("I think you should know the answer to *that*.");
+        } else if (rand == 7) {
+            System.out.println("it smells like sushi");
+        } else if (rand == 8) {
+            System.out.println("Maybe you should ask me again.");
+        } else if (rand == 9) {
+            System.out.println("Gonna be completely honest here: I'm a hard-coded Java program running from a pseudorandom number generator. You really expect me to answer that? I literally didn't even store what you inputted as a string. Go ask someone else.");
+        } else if (rand == 10) {
+            System.out.println("Absolutely.");
         }
 
 
